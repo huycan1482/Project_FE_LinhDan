@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+input:focus, select:focus-visible {
+    outline: none;
+}
+
+input, select {
+    opacity: 0.4;
+    border: 1px solid #545F73;
+    border-radius: 2px;
+    padding: 6px 20px 6px 18px;
+}
+
+.content {
+    min-height: calc(100vh - 8px - 55px);
+    width: 87%;
+    background-color: #E5E5E5;
+}
+
+.box {
+    padding: 27px 60px;
+    margin: 10px 0 0 0;
+    background-color: #fff;
+}
+
+.filter-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 84px;
+    margin: 15px 0;
+}
+
+.filter-options label {
+    margin-right: 28px;
+    color: #27303F;
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.filter-input-icon {
+    position: relative;
+    width: 280px;
+}
+
+.filter-input-icon > input, .filter-input-icon > select {
+    /* position: relative; */
+    padding-right: 30px;
+    width: 100%;
+}
+
+.filter-input-icon > i {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    bottom: 12px;
+}
