@@ -39,3 +39,22 @@ input, select {
     margin: 10px 0 0 0;
     background-color: #fff;
 }
+
+/*  */
+.add-btn, .add-btn:hover {
+    background-color: #EC6660;
+}
+
+.export-btn, .export-btn:hover {
+    background-color: #4DA977;
+}
+
+/*  */
+
+.btn {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    margin-left: 20px;
+    padding: 6px 17px;
+    text-align: center;
+}
