@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhập hàng</title>
+
+    <link rel="stylesheet" href="library/bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/layouts.css">
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/login_logo.png" alt="">
+                </a>
+            </div>
+            <div class="menu d-flex justify-content-between align-items-center">
+                <ul>
+                    <li><a href="#">TRANG CHỦ</a></li>
+                    <li><a href="#">HỎI ĐÁP</a></li>
+                    <li><a href="#">LIÊN HỆ</a></li>
+                </ul>
+                <ul class="menu2">
+                    <li>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </li>
+                    <li class="menu2-avatar">
+                        <img src="images/avatar.png" alt="">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </li>
+                    <li>
+                        <p>VIE</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="d-flex">
+            <div class="nav">
+                <ul>
+                    <li class="nav-items nav-active">
+                        <a href="#">
+                            <span>Quản lý sản phẩm</span>
+                        </a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#">
+                            <span>Nhập hàng</span>
+                        </a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#">
+                            <span>Xuất hàng</span>
+                        </a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#">
+                            <span>Kiểm kê hàng hoá</span>
+                        </a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#">
+                            <span>Báo cáo</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="container">
+                    <div class="filter-content">
+                        <div class="d-flex align-items-center">
+                            <div class="filter-input-icon">
+                                <input type="text" placeholder="Nhập mã phiếu nhập">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <div class="control-actions">
+                            <div class="btn add-btn">
+                                <img src="images/add.svg" alt="">
+                                <a href="#">Thêm sản phẩm mới</a>
+                            </div>
+                            <div class="btn export-btn">
+                                <img src="images/export-file.svg" alt="">
+                                <a href="#">Xuất file</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <table class="table">
+                            <thead class="thead">
+                                <tr class="tr">
+                                    <td class="td td-input">
+                                        <input type="checkbox" style="margin-right: 3px">
+                                        <label for="">Tên sản phẩm</label>
+                                    </td>
+                                    <td class="td">Thời gian</td>
+                                    <td class="td">Nhà cung cấp</td>
+                                    <td class="td">Trạng thái</td>
+                                    <td class="td">Tác vụ</td>
+                                </tr>
+                            </thead>
+                            <tbody class="tbody">
+                                <tr>
+                                    <td class="td td-input">
+                                        <input type="checkbox">
+                                        <label for="">MNH123</label>
+                                    </td>
+                                    <td>00/00/0000</td>
+                                    <td>Nhà cung cấp</td>
+                                    <td>
+                                        <span class="span-success">Hoàn thành</span>
+                                    </td>
+                                    <td class="d-flex">
+                                        <div class="table-actions">
+                                            <img src="images/btn-edit.svg" alt="">                                       
+                                        </div>
+                                        <div class="table-actions">
+                                            <img src="images/btn-delete.svg" alt="">                                       
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="td td-input">
+                                        <input type="checkbox">
+                                        <label for="">MNH123</label>
+                                    </td>
+                                    <td>00/00/0000</td>
+                                    <td>Nhà cung cấp</td>
+                                    <td>
+                                        <span class="span-danger">Hoàn thành</span>
+                                    </td>
+                                    <td class="d-flex">
+                                        <div class="table-actions">
+                                            <img src="images/btn-edit.svg" alt="">                                       
+                                        </div>
+                                        <div class="table-actions">
+                                            <img src="images/btn-delete.svg" alt="">                                       
+                                        </div>
+                                    </td>
+                                </tr>
+                                
+                                <!-- <tr class="empty-data">
+                                    <td colspan="5">
+                                        <img src="images/empty-data.svg" alt="">
+                                        <p>Không có dữ liệu</p>
+                                    </td>   
+                                </tr> -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="library/bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/fb15251dc0.js" crossorigin="anonymous"></script>
+</body>
+</html>

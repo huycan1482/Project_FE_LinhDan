@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    color: #27303F;
 }
 
 a {
@@ -57,4 +58,87 @@ input, select {
     margin-left: 20px;
     padding: 6px 17px;
     text-align: center;
+}
+
+/*  */
+
+.table-paginate .page-item {
+    color: #EC6660;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.table .empty-data td {
+    background-color: #fff;
+    text-align: center;
+}
+
+/*  */
+.control-actions { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.control-actions .btn {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    margin-left: 20px;
+    padding: 6px 17px;
+    text-align: center;
+}
+
+.control-actions .btn a {
+    color: #FFFFFF;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/*  */
+
+.filter-input-icon {
+    position: relative;
+    width: 320px;
+}
+
+.filter-input-icon > input, .filter-input-icon > select {
+    /* position: relative; */
+    padding-right: 30px;
+    width: 100%;
+}
+
+.filter-input-icon > i {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    bottom: 12px;
+}
+
+/*  */
+.span-success {
+    color: #4DA977;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.span-danger {
+    color: #EC6660;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+/*  */
+
+.prev-page {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.prev-page span {
+    margin: 0 30px 0 18px;
 }
