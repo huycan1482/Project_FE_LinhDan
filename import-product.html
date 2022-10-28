@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/layouts.css">
     <link rel="stylesheet" href="css/import-product.css">
+    <link rel="stylesheet" href="css/import.css">
 </head>
 <body>
     <div class="wrapper">
@@ -85,8 +86,147 @@
                             </div>
                         </div>
                     </div>
+                    <div class="main-content">
+                        <div class="container">
+                            <div class="box">
+                                <div class="row justify-content-between">
+                                    <div class="left-content row col-lg-6">
+                                        <div class="col-lg-12 order-info">
+                                            <div>
+                                                <img src="images/user.svg" alt="">
+                                                <span>Dũng</span>
+                                            </div>
+                                            <div>
+                                                <span>00/00/0000</span>
+                                                <span>00:00</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="search-box">
+                                                <i class="fa-solid fa-magnifying-glass icon-left"></i>
+                                                <input type="text" placeholder="Tìm nhà cung cấp">
+                                                <img src="images/add-black.svg" alt="" class="icon-right">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p>Mã phiếu xuất</p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="text" placeholder="Mã phiếu tự động" class="input-no-border">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p>Mã đặt hàng</p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p>Trạng thái</p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p>Đang tạo phiếu</p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p>Tổng tiền hàng</p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p>0</p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p>Giảm giá</p>
+                                        </div>
+                                        <div class="col-lg-6 border-bottom">
+                                            <p>0%</p>
+                                        </div>
+                                        <div class="col-lg-6" style="font-weight: 700;">
+                                            <p>Nhà cung cấp cần trả</p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <p>0đ</p>
+                                        </div>
+                                    </div>
+                                    <div class="right-content col-lg-5">
+                                        <div class="d-flex justify-content-between">
+                                            <p  style="margin-right: 10px">Ghi chú</p>
+                                            <textarea name="" id="" ></textarea>
+                                        </div>
+                                        <div class="d-flex justify-content-end">
+                                            <div class="btn primary-btn">Lưu tạm thời</div>
+                                            <div class="btn export-btn">Hoàn thành</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="custom-table">
+                                    <table class="table">
+                                        <thead class="thead">
+                                            <tr class="tr">
+                                                <td class="td">STT</td>
+                                                <td class="td">Mã hàng</td>
+                                                <td class="td">Tên hàng</td>
+                                                <td class="td">
+                                                    <span>DVT</span>
+                                                    <img src="images/sort-icon.svg" alt="">
+                                                </td>
+                                                <td class="td">
+                                                    <span>Số lượng</span>
+                                                    <img src="images/sort-icon.svg" alt="">
+                                                </td>
+                                                <td class="td">
+                                                    <span>Đơn giá</span>
+                                                    <img src="images/sort-icon.svg" alt="">
+                                                </td>
+                                                <td class="td">
+                                                    <span>Ngày xuất</span>
+                                                </td>
+                                                <td class="td">
+                                                    <span>Thành tiền</span> 
+                                                </td>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="tbody">
+                                            <!-- <tr>
+                                                <td>1</td>
+                                                <td>XH2</td>
+                                                <td>Nhà cung cấp</td>
+                                                <td>Gạch</td>
+                                                <td>Tấn</td>
+                                                <td>10</td>
+                                                <td>20.000.000đ</td>
+                                                <td>00/00/0000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>XH2</td>
+                                                <td>Nhà cung cấp</td>
+                                                <td>Gạch</td>
+                                                <td>Tấn</td>
+                                                <td>10</td>
+                                                <td>20.000.000đ</td>
+                                                <td>00/00/0000</td>
+                                            </tr> -->
 
-                    
+                                            <!-- <tr class="empty-data">
+                                                <td colspan="5">
+                                                    <img src="images/empty-data.svg" alt="">
+                                                    <p>Không có dữ liệu</p>
+                                                </td>   
+                                            </tr> -->
+                                            <tr class="get-data">
+                                                <td colspan="8">
+                                                    <p>Thêm sản phẩm từ file excel</p>
+                                                    <p>(Tải về theo mẫu: <a href="#">Excel file</a> )</p>
+                                                    <div class="btn export-btn">
+                                                        Chọn dữ liệu
+                                                    </div>
+                                                </td>   
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
