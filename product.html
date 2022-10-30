@@ -163,11 +163,11 @@
                             <div class="control-actions">
                                 <div class="btn add-btn">
                                     <img src="images/add.svg" alt="">
-                                    <a href="#">Thêm sản phẩm mới</a>
+                                    <span class="label" data-bs-toggle="modal" data-bs-target="#importProduct">Thêm sản phẩm mới</span>
                                 </div>
                                 <div class="btn export-btn">
                                     <img src="images/export-file.svg" alt="">
-                                    <a href="#">Xuất file</a>
+                                    <a href="#" class="label">Xuất file</a>
                                 </div>
                             </div>
                         </div>
@@ -278,6 +278,97 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="importProduct" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="importProductLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header pb-0">
+                    <div>
+                        <h1 class="modal-title fs-5" id="importProductLabel">Thêm nhà cung cấp</h1>
+                        <div class="modal-tab">
+                            <div class="tab active" data-click="changModalTab" data-label="info">
+                                Thông tin
+                            </div>
+                            <div class="tab" data-click="changModalTab" data-label="detail">
+                                Mô tả chi tiết
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row justify-content-between tab-content" data-label="info">
+                        <div class="col-lg-5">
+                            <div class="modal-input">
+                                <label for="">Mã hàng</label>
+                                <input type="text" placeholder="Điền mã hàng">
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="modal-input">
+                                <label for="">Giá vốn</label>
+                                <input type="text" placeholder="0">
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="modal-input">
+                                <label for="">Mã vạch</label>
+                                <input type="text" placeholder="Điền mã vạch">
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="modal-input">
+                                <label for="">Giá bán</label>
+                                <input type="text" placeholder="0">
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="modal-input">
+                                <label for="">Tên hàng</label>
+                                <input type="text" placeholder="Điền tên hàng">
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="modal-input">
+                                <label for="">Tồn kho</label>
+                                <input type="text" placeholder="0">
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="modal-input">
+                                <label for="">Nhóm hàng</label>
+                                <input type="text" placeholder="Điền mã NCC">
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="modal-input">
+                                <label for="">Trọng lượng</label>
+                                <input type="text" placeholder="0">
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="modal-input">
+                                <label for="">Thương hiệu</label>
+                                <input type="text" placeholder="Điền mã NCC">
+                            </div>
+                        </div>
+                        <div class="col-lg-5 d-flex align-items-center">
+                            <div class="">
+                                <input type="checkbox" placeholder="" style="margin-right: 5px">
+                                <span for="" style="font-size: 14px;
+                                line-height: 24px;">Bán trực tiếp</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn add-btn">Lưu</button>
+                    <button type="button" class="btn reset-btn" data-bs-dismiss="modal">Huỷ</button>
                 </div>
             </div>
         </div>

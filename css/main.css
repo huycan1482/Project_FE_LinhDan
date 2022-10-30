@@ -94,6 +94,72 @@ input, select {
 .table .get-data .btn {
     color: #ffff;
 }
+/*  */
+
+.modal-btn {
+    cursor: pointer;
+}
+
+.modal .modal-header {
+    background-color: #E5E5E5;
+}
+
+.modal .modal-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+
+.modal .modal-title + p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.modal .modal-input label {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;  
+}
+
+.modal .modal-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.modal .modal-input input,  .modal .modal-input .right-side{
+    width: 300px;
+}
+
+.modal-footer .add-btn {
+    color: #FFFFFF;
+}
+
+.modal-footer .reset-btn {
+    border: 1px solid #bdc3c7;
+}
+
+.modal .modal-tab {
+    display: flex;
+    align-items: center;
+}
+
+.modal .modal-tab .tab {
+    padding: 10px;
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+}
+
+.modal .modal-tab .active {
+    border-bottom: 3px solid #EC6660;
+}
 
 /*  */
 .control-actions { 
@@ -109,7 +175,7 @@ input, select {
     text-align: center;
 }
 
-.control-actions .btn a {
+.control-actions .btn .label {
     color: #FFFFFF;
     margin-left: 10px;
     font-weight: 700;

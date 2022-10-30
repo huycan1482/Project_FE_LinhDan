@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nhập hàng</title>
+    <title>Kiểm kê</title>
 
     <link rel="stylesheet" href="library/bootstrap-5.2.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -76,14 +76,14 @@
                     <div class="filter-content">
                         <div class="d-flex align-items-center">
                             <div class="filter-input-icon">
-                                <input type="text" placeholder="Nhập mã phiếu nhập">
+                                <input type="text" placeholder="Tìm mã phiêu kiểm">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </div>
                         </div>
                         <div class="control-actions">
                             <div class="btn add-btn">
                                 <img src="images/add.svg" alt="">
-                                <a href="#">Thêm sản phẩm mới</a>
+                                <a href="#">Kiểm kho</a>
                             </div>
                             <div class="btn export-btn">
                                 <img src="images/export-file.svg" alt="">
@@ -98,25 +98,38 @@
                                 <tr class="tr">
                                     <td class="td td-input">
                                         <input type="checkbox" style="margin-right: 3px">
-                                        <label for="">Tên sản phẩm</label>
+                                        <label for="">Mã kiểm kho</label>
                                     </td>
                                     <td class="td">Thời gian</td>
-                                    <td class="td">Nhà cung cấp</td>
-                                    <td class="td">Trạng thái</td>
-                                    <td class="td">Tác vụ</td>
+                                    <td class="td">Ngày cân bằng</td>
+                                    <td class="td">
+                                        <span>Số lượng thực tế</span>
+                                        <img src="images/sort-icon.svg" alt="">
+                                    </td>
+                                    <td class="td">
+                                        <span>Tổng thực tế</span>
+                                        <img src="images/sort-icon.svg" alt="">
+                                    </td>
+                                    <td class="td">
+                                        <span>Tổng chênh lệch</span>
+                                        <img src="images/sort-icon.svg" alt="">
+                                    </td>
+                                    <td class="td">SL lệch giảm</td>
+                                    <td class="td">Ghi chú</td>
                                 </tr>
                             </thead>
                             <tbody class="tbody">
                                 <tr>
                                     <td class="td td-input">
                                         <input type="checkbox">
-                                        <label for="">MNH123</label>
+                                        <label for="">KH1</label>
                                     </td>
                                     <td>00/00/0000</td>
-                                    <td>Nhà cung cấp</td>
-                                    <td>
-                                        <span class="span-success">Hoàn thành</span>
-                                    </td>
+                                    <td>Kho UTT</td>
+                                    <td>10 tấn</td>
+                                    <td>10 tấn</td>
+                                    <td>0</td>
+                                    <td>0</td>
                                     <td class="d-flex">
                                         <div class="table-actions">
                                             <img src="images/btn-edit.svg" alt="">
@@ -129,13 +142,14 @@
                                 <tr>
                                     <td class="td td-input">
                                         <input type="checkbox">
-                                        <label for="">MNH123</label>
+                                        <label for="">KH1</label>
                                     </td>
                                     <td>00/00/0000</td>
-                                    <td>Nhà cung cấp</td>
-                                    <td>
-                                        <span class="span-danger">Hoàn thành</span>
-                                    </td>
+                                    <td>Kho UTT</td>
+                                    <td>10 tấn</td>
+                                    <td>10 tấn</td>
+                                    <td>0</td>
+                                    <td>0</td>
                                     <td class="d-flex">
                                         <div class="table-actions">
                                             <img src="images/btn-edit.svg" alt="">
