@@ -72,6 +72,14 @@
     border-bottom: 5px solid #EC6660;
 }
 
+.tab-content {
+    display: none;
+}
+
+.tab-active {
+    display: flex;
+}
+
 /*  */
 .control-table {
     display: flex;
@@ -164,4 +172,16 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
+}
+
+/*  */
+.modal .modal-product-img {
+    display: flex;
+    justify-content: center;
+}
+
+.modal .modal-product-img img {
+    width: 110px;
+    height: 110px;
+    border: 1px dashed #000000;
 }
